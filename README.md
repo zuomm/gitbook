@@ -3,13 +3,17 @@
 ### 一、GitBook 准备工作
 
 #### 安装node
+
 GitBook 是一个基于 [Node.js](https://nodejs.org/en/) 的命令行工具，下载安装 Node.js，安装完成之后，你可以使用下面的命令来检验是否安装成功。
+
 ```
 $ node -v
 v7.7.1
 ```
 #### 安装GitBook
+
 输入下面的命令来安装 GitBook
+
 ```
 $ npm install gitbook-cli -g
 ```
@@ -38,6 +42,7 @@ $ gitbook install
 ```
 $ gitbook serve
 ```
+
 ### 三、修改文件夹后需同步目录内容
 SUMMARY.md
 ```
@@ -60,9 +65,14 @@ SUMMARY.md
 * [如何定制](Chapter3/README.md)
 
 ```
+
 目录说明：
 
-1. * [目录标题1](xxx/xxx.md) ：对应一条目录，括号里面是目录对应的文件
-2. 二级目录需要在一级目录下空格几个
-3. gitbook最多只有三级目录
-4. 目录前面可以用 * -
+1. `* [目录标题1](xxx/xxx.md) ：对应一条目录，括号里面是目录对应的文件`；
+2. 二级目录需要在一级目录缩进几个空格就行了；
+3. gitbook最多只有三级目录；
+4. 目录前面可以用 * - ；
+5. ` ### 基础问题 、### 功能拓展 `这些表示目录分块展示，也可以不用，看个人需要。
+
+### 四、友链
+- [GitBook 学习笔记](https://yangjh.oschina.io/gitbook/faq/Contents.html)
