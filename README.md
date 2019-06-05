@@ -42,6 +42,14 @@ $ gitbook install
 ```
 $ gitbook serve
 ```
+注：执行gitbook serve时会自动进行build编译成html静态文件,直接在本地输入http://localhost:4000就可以查看网站了。
+
+### 构建
+```
+$ gitbook build
+```
+注：打包后项目会多了一个_book目录，_book目录是我们需要的网站静态html文件，只需要部署_book静态文件。
+![PNG](\images\build.png)
 
 ### 三、修改文件夹后需同步目录内容
 SUMMARY.md
@@ -52,13 +60,13 @@ SUMMARY.md
 
 ### 基础问题
 
-- [简介](Chapter1/1.md)
+* [简介](Chapter1/1.md)
     * [使用GitBook命令行工具制作文档的步骤](Chapter1/2.md)
 * [如何制作多级目录](Chapter1/3.md)
 
 ### 功能拓展
 
-- [如何插入图片](Chapter2/1.md)
+* [如何插入图片](Chapter2/1.md)
     * [如何在表格中使用竖线|](Chapter2/2.md)
 * [如何在url中使用括号](Chapter2/3.md)
 ---
