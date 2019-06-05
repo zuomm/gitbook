@@ -1,14 +1,14 @@
 # GitBook 使用教程
 
-## GitBook 准备工作
+### 一、GitBook 准备工作
 
-### 1、安装node
+#### 安装node
 GitBook 是一个基于 [Node.js](https://nodejs.org/en/) 的命令行工具，下载安装 Node.js，安装完成之后，你可以使用下面的命令来检验是否安装成功。
 ```
 $ node -v
 v7.7.1
 ```
-### 2、安装GitBook
+#### 安装GitBook
 输入下面的命令来安装 GitBook
 ```
 $ npm install gitbook-cli -g
@@ -22,19 +22,47 @@ GitBook version: 3.2.3
 更多详情请参照 [GitBook 安装文档](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md) 来安装
 
 
-## 下载本项目到本地
+### 二、下载本项目到本地
 ```
 $ git clone git@gitlab.0easy.com:aiotcloud/aiot-openAPI-document.git
 ```
-## 进入项目
+### 进入项目
 ```
-cd aiot-openAPI-document
+$ cd aiot-openAPI-document
 ```
-## 安装依赖
+### 安装依赖
 ```
 $ gitbook install
 ```
-## 运行
+### 运行
 ```
 $ gitbook serve
 ```
+### 三、修改文件夹后需同步目录内容
+SUMMARY.md
+```
+# Summary
+
+* [前言](README.md)
+
+### 基础问题
+
+- [简介](Chapter1/1.md)
+    * [使用GitBook命令行工具制作文档的步骤](Chapter1/2.md)
+* [如何制作多级目录](Chapter1/3.md)
+
+### 功能拓展
+
+- [如何插入图片](Chapter2/1.md)
+    * [如何在表格中使用竖线|](Chapter2/2.md)
+* [如何在url中使用括号](Chapter2/3.md)
+---
+* [如何定制](Chapter3/README.md)
+
+```
+目录说明：
+
+1. * [目录标题1](xxx/xxx.md) ：对应一条目录，括号里面是目录对应的文件
+2. 二级目录需要在一级目录下空格几个
+3. gitbook最多只有三级目录
+4. 目录前面可以用 * -
