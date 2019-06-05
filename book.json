@@ -1,0 +1,41 @@
+{
+  "title": "技术文档",
+    "author": "0easy",
+
+    "plugins": [
+      "include-codeblock",
+      "ace",
+      "-lunr",
+      "-search",
+      "search-pro",
+      "-livereload",
+      "prism",
+      "-highlight",
+      "url-embed",
+      "page-footer-ex",
+      "splitter",
+      "chapter-fold"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "include-codeblock": {
+        "template": "ace",
+        "unindent": true,
+        "edit": false
+    },
+    "chapter-fold": {},
+    "prism": {
+      "css": [
+          "prismjs/themes/prism-solarizedlight.css"
+      ]
+    },
+    "page-footer-ex": {
+      "copyright": "By [0easy]，使用[知识共享 署名-相同方式共享]",
+      "markdown": true,
+      "update_label": "此页面修订于：",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
