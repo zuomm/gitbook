@@ -1,31 +1,57 @@
 {
   "title": "技术文档",
     "author": "0easy",
-
+    "language" : "zh-hans",
     "plugins": [
+      "-sharing",
+      "sharing-plus",
       "include-codeblock",
       "ace",
       "-lunr",
       "-search",
       "search-pro",
-      "-livereload",
+      "livereload",
       "prism",
       "-highlight",
       "url-embed",
       "page-footer-ex",
       "splitter",
-      "chapter-fold"
+      "expandable-chapters",
+      "ancre-navigation",
+      "popup",
+      "flexible-alerts",
+      "pageview-count",
+      "emphasize"
   ],
+  "links" : {
+    "sidebar" : {
+        "零壹主页" : "http://www.ds-vip.top"
+    }
+  },
   "pluginsConfig": {
     "theme-default": {
-      "showLevel": true
+      "showLevel": false
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": true,
+      "pocket": false,
+      "qq": false,
+      "qzone": true,
+      "twitter": false,
+      "weibo": true,
+      "all": [
+        "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+        "messenger","qq", "qzone","viber","whatsapp"
+      ]
     },
     "include-codeblock": {
         "template": "ace",
         "unindent": true,
         "edit": false
     },
-    "chapter-fold": {},
+    "expandable-chapters": {},
     "prism": {
       "css": [
           "prismjs/themes/prism-solarizedlight.css"
@@ -37,5 +63,8 @@
       "update_label": "此页面修订于：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
     }
+  },
+  "styles": {
+    "website": "styles/website.css"
   }
 }

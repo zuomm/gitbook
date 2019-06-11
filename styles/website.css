@@ -1,0 +1,9 @@
+.gitbook-link {
+  display: none !important;
+}
+.book .book-summary .exc-trigger:before {
+  content: "\f105"!important;
+} 
+.book .book-summary .expanded > a .exc-trigger:before, .book .book-summary .expanded > span .exc-trigger:before {
+	content: "\f107"!important;
+}

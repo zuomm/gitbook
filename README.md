@@ -28,7 +28,7 @@ GitBook version: 3.2.3
 
 ### 二、下载本项目到本地
 ```
-$ git clone https://github.com/zuomm/gitbook.git
+$ git clone git@gitlab.0easy.com:aiotcloud/aiot-openAPI-document.git
 ```
 ### 进入项目
 ```
@@ -84,3 +84,4 @@ SUMMARY.md
 
 ### 四、友链
 - [GitBook 学习笔记](https://yangjh.oschina.io/gitbook/faq/Contents.html)
+- [GitBook 插件整理](https://www.jianshu.com/p/427b8bb066e6)
